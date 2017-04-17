@@ -1,0 +1,48 @@
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.section-blocks {
+  height: 700px;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 40px;
+}
+
+nav li {
+  float: left;
+  width: 20%;
+
+}
+
+.menu {
+  margin: 30px;
+  height: 100px;
+}
+
+nav {
+  margin: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#home-text {
+  font-size: 18px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#home-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#home-text p {
+  margin-top: 20px;
+}
