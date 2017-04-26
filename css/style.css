@@ -6,7 +6,7 @@ body {
 }
 
 .section-blocks {
-  height: 1000px !important;
+  height: 800px !important;
 }
 
 a {
@@ -29,6 +29,7 @@ h2 {
 }
 p {
   font-size: 20px;
+  padding-top: 60px;
 }
 
 .form-group {
@@ -80,4 +81,13 @@ p {
 #about-image img {
   height: 400px;
   margin-top: 50px;
+}
+
+#service {
+  height: 500px !important;
+}
+
+#services p {
+  padding-top: 10px;
+  text-align: left !important;
 }
