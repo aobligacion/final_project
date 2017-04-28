@@ -9,8 +9,7 @@ $(document).ready(function(){
     var id = "#"+target;
     var target_position = $(id).position().top;
 
-    $(window).animate({top: (target_position - current_position) * -1 + "px"}, 1000);
-  });
+    $('body, html').animate({ scrollTop: $(id).offset().top }, 1000);
  });
 
 //     /**
