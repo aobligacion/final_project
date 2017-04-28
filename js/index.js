@@ -1,17 +1,17 @@
 $(document).ready(function(){
 
- //  $('#control-container').css('position', 'relative');
- //
- //  $('.navbar-text').click(function(){
- //    var current_position = $(window).scrollTop();
- //
- //    var target = $(this).attr('data-target');
- //    var id = "#"+target;
- //    var target_position = $(id).position().top;
- //
- //    $(window).animate({top: (target_position - current_position) * -1 + "px"}, 1000);
- //  });
- // });
+  $('#control-container').css('position', 'relative');
+
+  $('.navbar-text').click(function(){
+    var current_position = $(window).scrollTop();
+
+    var target = $(this).attr('data-target');
+    var id = "#"+target;
+    var target_position = $(id).position().top;
+
+    $(window).animate({top: (target_position - current_position) * -1 + "px"}, 1000);
+  });
+ });
 
 //     /**
 //      * This part does the "fixed navigation after scroll" functionality
@@ -32,10 +32,10 @@ $(document).ready(function(){
 //      * This part causes smooth scrolling using scrollto.js
 //      * We target all a tags inside the nav, and apply the scrollto.js to it.
 //      */
-     $(".navbar-text").click(function(evn){
-         evn.preventDefault();
-         $('html,body').scrollTop(this.hash, this.hash);
-     });
+//     $(".navbar-text").click(function(evn){
+//         evn.preventDefault();
+//         $('html,body').scrollTop(this.hash, this.hash);
+//     });
 //
 //     /**
 //      * This part handles the highlighting functionality.
