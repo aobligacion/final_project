@@ -42,9 +42,7 @@ p {
   width: 50%;
 }
 
-#contact p {
-  text-align: center;
-}
+
 
 .footer {
   margin-top: 200px;
@@ -87,64 +85,10 @@ p {
   margin-left: 100px;
 }
 
-#about-text {
-  margin-left: 50px
-}
 #about-text p {
   font-size: 18px;
 }
 
-/*-webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-        box-sizing: border-box;
-}
-
-body {
-background: #333;
-}*/
-
-/*.pic {
-border
-float: left;
-height: 300px;
-width: 300px;
-margin: 20px;
-overflow: hidden;
-
--webkit-box-shadow: 5px 5px 5px #111;
-        box-shadow: 5px 5px 5px #111;
-}*/
-
-/*GROW*/
-/*.grow img {
-  height: 200px;
-  width: 200px;
-
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-}
-
-.grow img:hover {
-  width: 400px;
-  height: 400px;
-}*/
-
-/*BLUR*/
-/*.blur img {
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-}
-
-.blur img:hover {
-  -webkit-filter: blur(5px);
-}*/
 
 /*B&W*/
 .bw {
@@ -157,4 +101,9 @@ overflow: hidden;
 
 .bw:hover {
   -webkit-filter: grayscale(100%);
+}
+
+@media screen and (max-width:768px){
+.section-blocks {
+  margin-top: 300px;
 }
